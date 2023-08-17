@@ -6,7 +6,7 @@
     "type": "commonjs",
     "scripts": {
         "build": "remix build",
-        "dev": "remix dev",
+        "dev": "PORT=10000 remix dev",
         "lint": "eslint app",
         "format": "prettier --write app",
         "postinstall": "remix setup node",
